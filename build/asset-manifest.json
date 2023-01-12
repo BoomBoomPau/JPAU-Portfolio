@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/jpau-portfolio/static/css/main.2047ad6d.chunk.css",
+    "main.js": "/jpau-portfolio/static/js/main.bc2e4784.chunk.js",
+    "main.js.map": "/jpau-portfolio/static/js/main.bc2e4784.chunk.js.map",
+    "runtime-main.js": "/jpau-portfolio/static/js/runtime-main.9a1d336a.js",
+    "runtime-main.js.map": "/jpau-portfolio/static/js/runtime-main.9a1d336a.js.map",
+    "static/js/2.1b6244f8.chunk.js": "/jpau-portfolio/static/js/2.1b6244f8.chunk.js",
+    "static/js/2.1b6244f8.chunk.js.map": "/jpau-portfolio/static/js/2.1b6244f8.chunk.js.map",
+    "index.html": "/jpau-portfolio/index.html",
+    "static/css/main.2047ad6d.chunk.css.map": "/jpau-portfolio/static/css/main.2047ad6d.chunk.css.map",
+    "static/js/2.1b6244f8.chunk.js.LICENSE.txt": "/jpau-portfolio/static/js/2.1b6244f8.chunk.js.LICENSE.txt",
+    "static/media/NYC.d1f9fd78.jpg": "/jpau-portfolio/static/media/NYC.d1f9fd78.jpg",
+    "static/media/image01.d983c814.jpg": "/jpau-portfolio/static/media/image01.d983c814.jpg",
+    "static/media/image02.1e11a9a7.jpg": "/jpau-portfolio/static/media/image02.1e11a9a7.jpg",
+    "static/media/image03.8384d00f.jpg": "/jpau-portfolio/static/media/image03.8384d00f.jpg",
+    "static/media/image04.0d2e4f95.jpg": "/jpau-portfolio/static/media/image04.0d2e4f95.jpg",
+    "static/media/image05.d0ee00dd.jpg": "/jpau-portfolio/static/media/image05.d0ee00dd.jpg",
+    "static/media/image06.02310a56.jpg": "/jpau-portfolio/static/media/image06.02310a56.jpg",
+    "static/media/image07.c22c37b2.jpg": "/jpau-portfolio/static/media/image07.c22c37b2.jpg",
+    "static/media/image08.01378c59.jpg": "/jpau-portfolio/static/media/image08.01378c59.jpg",
+    "static/media/image09.0801fead.jpg": "/jpau-portfolio/static/media/image09.0801fead.jpg",
+    "static/media/image10.f359c566.jpg": "/jpau-portfolio/static/media/image10.f359c566.jpg",
+    "static/media/image11.6acd8c0b.jpg": "/jpau-portfolio/static/media/image11.6acd8c0b.jpg",
+    "static/media/image12.47e82990.jpg": "/jpau-portfolio/static/media/image12.47e82990.jpg",
+    "static/media/image13.6da35169.jpg": "/jpau-portfolio/static/media/image13.6da35169.jpg",
+    "static/media/image14.e83a7e08.jpg": "/jpau-portfolio/static/media/image14.e83a7e08.jpg",
+    "static/media/image15.01c8715c.jpg": "/jpau-portfolio/static/media/image15.01c8715c.jpg",
+    "static/media/image16.01613377.jpg": "/jpau-portfolio/static/media/image16.01613377.jpg",
+    "static/media/image17.b1f3bccf.jpg": "/jpau-portfolio/static/media/image17.b1f3bccf.jpg",
+    "static/media/ironman.8aa9f1ae.jpg": "/jpau-portfolio/static/media/ironman.8aa9f1ae.jpg",
+    "static/media/ironmayc.078ea1ec.png": "/jpau-portfolio/static/media/ironmayc.078ea1ec.png",
+    "static/media/jordandior.6f5a46d1.jpg": "/jpau-portfolio/static/media/jordandior.6f5a46d1.jpg",
+    "static/media/mutant2690.b7573420.png": "/jpau-portfolio/static/media/mutant2690.b7573420.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9a1d336a.js",
+    "static/js/2.1b6244f8.chunk.js",
+    "static/css/main.2047ad6d.chunk.css",
+    "static/js/main.bc2e4784.chunk.js"
+  ]
+}
