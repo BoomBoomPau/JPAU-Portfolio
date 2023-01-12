@@ -18,17 +18,17 @@ export default function AboutMe() {
       </div>
       <div className="container-aboutme-section-2">
         <br />
-        <h4>
+        <p id="section-1">
           Based in Queens, NY, when I’m not out taking pictures you’ll often
           find me searching for the best pizza or attempting to bake croissants.
-        </h4>
+        </p>
         <br />
 
         <img src={aboutImage1} id="NYC" />
-        <p>
+        <h4>
           Enjoy clean, minimalistic design. Passionate about creating and
           sharing beautiful moments.
-        </p>
+        </h4>
       </div>
 
       <div className="container-aboutme-section-2">
