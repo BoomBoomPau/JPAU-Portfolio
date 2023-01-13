@@ -13,30 +13,27 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <div className="container-nav">
-        <div className="hamburger"></div>
-        <span className="bar"> </span>
-        <span className="bar"> </span>
-        <span className="bar"> </span>
+    
         <ul className="nav-menu">
           <li className="nav-list">
-            <Link to="/" className="list">
+            <Link to="/jpau-portfolio/" className="list">
               Photography
             </Link>
           </li>
 
           <li className="nav-list">
-            <Link to="/animation" className="list">
+            <Link to="/jpau-portfolio/animation" className="list">
               Animation
             </Link>
           </li>
           <li className="nav-list">
             {" "}
-            <Link to="/about" className="list">
+            <Link to="/jpau-portfolio/about" className="list">
               About
             </Link>
           </li>
           <li className="nav-list">
-            <Link to="/contact" className="list">
+            <Link to="/jpau-portfolio/contact" className="list">
               Contact
             </Link>
           </li>

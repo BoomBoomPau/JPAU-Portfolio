@@ -20,10 +20,11 @@ export default function App() {
         <div className="container-main">
           <div>
             <Routes>
-              <Route path="/" element=<Gallery /> />
-              <Route path="/animation" element=<Animation /> />
-              <Route path="/about" element=<AboutMe /> />
-              <Route path="/contact" element=<Contact /> />
+            <Route path="/jpau-portfolio/" element=<Gallery /> />
+              
+              <Route path="/jpau-portfolio/animation" element=<Animation /> />
+              <Route path="/jpau-portfolio/about" element=<AboutMe /> />
+              <Route path="/jpau-portfolio/contact" element=<Contact /> />
             </Routes>
           </div>
         </div>

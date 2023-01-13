@@ -15,10 +15,6 @@ export default function Animation() {
   function toggle() {
     setShowPhoto((prevShow) => !prevShow);
   }
-  function tog() {
-    hamburger.classList.toggle("active");
-    console.log("toggle");
-  }
 
   return (
     <div>
@@ -31,11 +27,7 @@ export default function Animation() {
           onMouseLeave={toggle}
         />
       </div>
-      <div className="hamburger" onClick={tog}>
-        <span className="bar"> </span>
-        <span className="bar"> </span>
-        <span className="bar"> </span>
-      </div>
+     
     </div>
   );
 }
