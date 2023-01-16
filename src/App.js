@@ -8,13 +8,16 @@ import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import Gallery from "./Gallery";
 import Animation from "./Animation";
+import { Link } from "react-router-dom";
 
 export default function App() {
   return (
     <>
       <div>
         <div className="container-logo">
-          <h1 id="logo"> JPAU </h1>
+        <h1 id="logo">
+            <Link to="/jpau-portfolio/">JPAU</Link>
+          </h1>
         </div>
         <Navbar />
         <div className="container-main">
