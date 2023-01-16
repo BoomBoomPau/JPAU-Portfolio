@@ -25,7 +25,7 @@ export default function App() {
             <Routes>
             <Route path="/jpau-portfolio/" element=<Gallery /> />
               
-              <Route path="/jpau-portfolio/animation" element=<Animation /> />
+              <Route path="/jpau-portfolio/upcoming" element=<Animation /> />
               <Route path="/jpau-portfolio/about" element=<AboutMe /> />
               <Route path="/jpau-portfolio/contact" element=<Contact /> />
             </Routes>

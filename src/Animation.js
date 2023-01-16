@@ -19,7 +19,7 @@ export default function Animation() {
   return (
     <div>
       <div>
-        <h1> Animations </h1>
+        <h1> Upcoming </h1>
         <img
           src={set}
           width="40%"

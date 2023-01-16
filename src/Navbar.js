@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <nav className="nav">
       <div className="container-nav">
-    
+
         <ul className="nav-menu">
           <li className="nav-list">
             <Link to="/jpau-portfolio/" className="list">
@@ -22,8 +22,8 @@ export default function Navbar() {
           </li>
 
           <li className="nav-list">
-            <Link to="/jpau-portfolio/animation" className="list">
-              Animation
+            <Link to="/jpau-portfolio/upcoming" className="list">
+              Upcoming
             </Link>
           </li>
           <li className="nav-list">
