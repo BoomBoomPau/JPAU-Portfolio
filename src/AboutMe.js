@@ -1,27 +1,44 @@
 import React from "react";
 import mutant2690 from "./images/mutant2690.png";
 import aboutImage1 from "./images/NYC.jpg";
-import jordan1 from "./images/jordandior.jpg";
-import ironman from "./images/ironman.jpg";
+import bwmutant2690 from "./images/bwmutant2690.png";
+import flowers from "./images/flowers.jpg";
+
 
 export default function AboutMe() {
   const [display, setDisplay] = React.useState("");
+  let [setPhoto, setShowPhoto] = React.useState(true);
+
+  let set = setPhoto ? mutant2690 : bwmutant2690;
+
+  function toggler() {
+    setShowPhoto((prevShow) => !prevShow);
+  }
+
+  function toggle() {
+    setShowPhoto((prevShow) => !prevShow);
+  }
 
   return (
     <div className="super-container-aboutme">
       <div className="container-aboutme">
         <br />
         <div className="container-aboutme-section-1">
-          <img id="mutant2690" src={mutant2690} />
+        <img
+            src={set}
+            width="40%"
+            onMouseOver={toggler}
+            onMouseLeave={toggle}
+          />
           <h2 id="h2-center"> Hi, I'm Jesse</h2>
         </div>
       </div>
       <div className="container-aboutme-section-2">
         <br />
-        <p id="section-1">
+        <h3 id="section-1">
           Based in Queens, NY, when I’m not out taking pictures you’ll often
           find me searching for the best pizza or attempting to bake croissants.
-        </p>
+        </h3>
         <br />
 
         <img src={aboutImage1} id="NYC" />
@@ -33,7 +50,7 @@ export default function AboutMe() {
 
       <div className="container-aboutme-section-2">
         <br />
-        <img src={aboutImage1} id="NYC" />
+        <img src={flowers} id="NYC" />
 
         <br />
         <p>
