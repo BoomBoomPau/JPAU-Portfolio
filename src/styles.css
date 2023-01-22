@@ -39,78 +39,6 @@ h1 {
   margin-right: 3rem;
 }
 
-/* Loading */
-
-.loading-circle {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  display: inline-block;
-  margin: 0.5rem;
-  animation: scaling 2.5s ease-in-out infinite;
-}
-
-@keyframes scaling {
-  0% {
-    transform: scale(0.2);
-    background-color: #3f7ca5;
-  }
-
-  40% {
-    transform: scale(1);
-    background-color: #7fa6c9;
-  }
-
-  50% {
-    transform: scale(1);
-    background-color: #7fa6c9;
-  }
-  100% {
-    transform: scale(0.2);
-    background-color: #de5867;
-  }
-}
-
-.loading-circle:nth-child(0) {
-  animation-delay: 0s;
-}
-
-.loading-circle:nth-child(1) {
-  animation-delay: 0.2s;
-}
-
-.loading-circle:nth-child(2) {
-  animation-delay: 0.4s;
-}
-
-.loading-circle:nth-child(3) {
-  animation-delay: 0.6s;
-}
-
-.loading-circle:nth-child(4) {
-  animation-delay: 0.8s;
-}
-
-.loading-circle:nth-child(5) {
-  animation-delay: 1s;
-}
-
-.loading-text {
-  color: blue;
-  animation: slide-down 2s ease;
-}
-
-@keyframes slide-down {
-  0% {
-    opacity: 100%;
-  }
-
-  100% {
-    opacity: 0%;
-    transform: translate(0, 50%);
-  }
-}
-
 /* NavBar */
 
 .nav {
@@ -196,69 +124,50 @@ h1 {
   margin-right: 3rem;
 }
 
-#jordan1 {
-  width: 40vw;
-}
 
 /* Contact */
 
-.container-contact-line1 {
-  display: flex;
-  padding-left: 5%;
-  width: 80%;
+.container-contact {
   margin-left: 3rem;
-  flex-wrap: wrap;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
 }
 
 .container-name {
   display: flex;
   flex-direction: column;
-  padding-right: 1rem;
-  width: 34vw;
   font-weight: bold;
+}
+
+.container-contact-row1 {
+  display: flex;
+  gap: 10px;
 }
 
 .container-email {
   display: flex;
   flex-direction: column;
   font-weight: bold;
-  width: 35vw;
+}
+
+.container-contact input {
+  margin-top: 0.5rem;
+  width: 40vw;
+  height: 1.5rem;
 }
 
 .container-message {
+  margin-top: 0.5rem;
   display: flex;
   flex-direction: column;
-  padding-left: 5%;
-  padding-top: 1rem;
-  margin-left: 3rem;
   font-weight: bold;
 }
 
-.container-contact {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 100vw;
-
-  margin-left: 4em;
-}
-
 textarea {
-  width: 70vw;
+  width: 82.5vw;
   height: 40vmin;
   resize: none;
-
-  margin-top: 1rem;
-}
-
-input {
-  margin-top: 1rem;
-  width: 30vm;
-  height: 30px;
-}
-
-button {
-  margin-top: 1rem;
+  margin-top: .5rem;
 }
 
 /* gallery */
@@ -292,19 +201,7 @@ img:hover {
 
 /* button */
 
-button {
-  height: 2.5rem;
-  text-align: center;
-  width: 130px;
 
-  background: #fff;
-  border: 0.5px solid;
-  color: $green;
-  letter-spacing: 1px;
-  text-shadow: 0;
-
-  margin-left: 7rem;
-}
 
 #image1 {
   width: 40%;
@@ -314,6 +211,30 @@ button {
   .gallery-container img {
     max-width: 20rem;
     padding: 1%;
+  }
+
+  .container-contact {
+    margin-left: 0rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .container-contact-row1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container-contact input {
+    margin-top: 0.5rem;
+    width: 98%;
+
+  }
+
+  textarea {
+    width: 65vw;
+    height: 40vmin;
+    resize: none;
   }
 }
 
@@ -349,20 +270,7 @@ button {
     gap: 5px;
   }
 
-  .hamburger {
-    display: none;
-    cursor: pointer;
-  }
-
-  .bar {
-    display: none;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    color: blue;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-  }
+ 
 
   .container-main {
     display: flex;
@@ -392,6 +300,10 @@ button {
     margin-left: 2rem;
     margin-top: 1rem;
   }
+  .super-container-aboutme img {
+    margin-left: 4rem;
+    width: 60%;
+  }
 
   .container-aboutme {
     display: flex;
@@ -414,16 +326,12 @@ button {
   .container-aboutme-section-2 {
     margin: 0;
     width: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  #mutant2690 {
-    width: 60%;
-    margin-left: 14%;
-  }
+ 
 
   #NYC {
     width: 75vw;
@@ -439,47 +347,48 @@ button {
     width: 100%;
   }
 
-  #jordan1 {
-    width: 40vw;
-  }
+  /* Contact */
 
   .container-contact {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 100vw;
-
-    margin: 0;
+    margin-left: 5rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
   }
 
-  .container-contact-line1 {
+  .container-name {
     display: flex;
     flex-direction: column;
-    padding-left: 5%;
-    width: 100%;
-    margin-left: 3rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 1rem;
-  }
-
-  input {
-    margin-top: 1rem;
-    width: 170%;
-    height: 30px;
+    font-weight: bold;
   }
 
   .container-email {
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
-    width: 34vw;
+    font-weight: bold;
   }
+
+  .container-contact-row1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container-contact input {
+    margin-top: 0.5rem;
+    width: 82.5vw;
+  }
+
+  .container-message {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+
   textarea {
-    width: 60vw;
+    width: 82.5vw;
     height: 40vmin;
     resize: none;
-
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
 }

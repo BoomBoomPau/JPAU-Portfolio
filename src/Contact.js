@@ -1,62 +1,50 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 export default function Contact() {
-  const [formData, setFormData] = React.useState({
-    name: "",
-    email: "",
-    message: ""
-  });
+  const form = useRef();
 
-  function handleChange(event) {
-    setFormData((prevFormData) => {
-      return {
-        ...prevFormData,
-        [event.target.name]: event.target.value
-      };
-    });
-  }
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  function handleSubmit(event) {
-    event.preventDefault();
-    console.log(formData);
-  }
+    emailjs
+      .sendForm(
+        "service_qy8hf9q",
+        "react_site_portfolio",
+        form.current,
+        "dgSclqp7tlzL4VxTh"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
 
   return (
-    <div>
-      <div className="container-contact">
-        <div className="container-contact-line1">
+    <div className="container-contact">
+      <form ref={form} onSubmit={sendEmail}>
+        <div className="container-contact-row1">
           <div className="container-name">
-            <form> Name </form>
-            <input
-              type="text"
-              placeholder="Name"
-              onChange={handleChange}
-              name="name"
-            />
+            {" "}
+            <label>Name</label>
+            <input type="text" name="name" />
           </div>
           <div className="container-email">
-            <form> Email </form>
-            <input
-              type="text"
-              placeholder="Email"
-              onChange={handleChange}
-              name="email"
-            />
+            <label>Email</label>
+            <input type="email" name="email" />
           </div>
         </div>
-
-        <br />
         <div className="container-message">
-          <form> Message </form>
-          <textarea
-            placeholder=" Type message here... "
-            onChange={handleChange}
-            name="message"
-          />
+          <label>Message</label>
+          <textarea name="message" />
+          <input type="submit" value="Send" />
         </div>
-        <form onSubmit={handleSubmit}>
-          <button> Submit </button>
-        </form>
-      </div>
+      </form>
     </div>
   );
 }
