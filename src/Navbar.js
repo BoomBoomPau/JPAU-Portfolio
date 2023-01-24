@@ -39,13 +39,13 @@ export default function Navbar() {
           </li>
 
           <div className="icons ">
-            <a href="https://www.facebook.com/">
+            <a href="https://www.instagram.com/j.pau/">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
-            <a href="https://www.facebook.com/">
+            <a href="https://github.com/BoomBoomPau/jpau-portfolio/">
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a href="https://www.facebook.com/">
+            <a href="https://www.flickr.com/photos/196999451@N04//">
               <FontAwesomeIcon icon={faFlickr} />
             </a>
           </div>

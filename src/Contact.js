@@ -42,7 +42,7 @@ export default function Contact() {
         <div className="container-message">
           <label>Message</label>
           <textarea name="message" />
-          <input type="submit" value="Send" />
+          <input id="button" type="submit" value="Send" />
         </div>
       </form>
     </div>

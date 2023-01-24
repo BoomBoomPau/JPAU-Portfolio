@@ -30,7 +30,8 @@ export default function AboutMe() {
             onMouseOver={toggler}
             onMouseLeave={toggle}
           />
-          <h2 id="h2-center"> Hi, I'm Jesse</h2>
+          <h2 id="h2-center"> Hi, I'm <span className="boom"> Jesse </span></h2>
+
         </div>
       </div>
       <div className="container-aboutme-section-2">
