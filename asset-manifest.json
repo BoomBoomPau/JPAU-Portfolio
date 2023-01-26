@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jpau-portfolio/static/css/main.244205d1.chunk.css",
+    "main.css": "/jpau-portfolio/static/css/main.58df4b31.chunk.css",
     "main.js": "/jpau-portfolio/static/js/main.fc9061ea.chunk.js",
     "main.js.map": "/jpau-portfolio/static/js/main.fc9061ea.chunk.js.map",
     "runtime-main.js": "/jpau-portfolio/static/js/runtime-main.9a1d336a.js",
@@ -8,7 +8,7 @@
     "static/js/2.00b38c41.chunk.js": "/jpau-portfolio/static/js/2.00b38c41.chunk.js",
     "static/js/2.00b38c41.chunk.js.map": "/jpau-portfolio/static/js/2.00b38c41.chunk.js.map",
     "index.html": "/jpau-portfolio/index.html",
-    "static/css/main.244205d1.chunk.css.map": "/jpau-portfolio/static/css/main.244205d1.chunk.css.map",
+    "static/css/main.58df4b31.chunk.css.map": "/jpau-portfolio/static/css/main.58df4b31.chunk.css.map",
     "static/js/2.00b38c41.chunk.js.LICENSE.txt": "/jpau-portfolio/static/js/2.00b38c41.chunk.js.LICENSE.txt",
     "static/media/NYC.d1f9fd78.jpg": "/jpau-portfolio/static/media/NYC.d1f9fd78.jpg",
     "static/media/bwmutant2690.4ac45a3e.png": "/jpau-portfolio/static/media/bwmutant2690.4ac45a3e.png",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.9a1d336a.js",
     "static/js/2.00b38c41.chunk.js",
-    "static/css/main.244205d1.chunk.css",
+    "static/css/main.58df4b31.chunk.css",
     "static/js/main.fc9061ea.chunk.js"
   ]
 }
