@@ -12,5 +12,6 @@ export default function Animation() {
       </div>
      
     </div>
+    
   );
 }
