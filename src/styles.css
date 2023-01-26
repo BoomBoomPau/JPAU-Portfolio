@@ -287,8 +287,16 @@ img:hover {
 }
 
 @media (max-width: 600px) {
+
+  html {
+    font-family: "Montserrat", sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
   #logo {
     margin-top: 1rem;
+    margin-left: -1rem;
     position: static;
     z-index: 10000;
     top: 0px;
